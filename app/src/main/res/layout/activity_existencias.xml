@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/root_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Existencias">
+
+    <EditText
+        android:id="@+id/sku"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="51dp"
+        android:hint="@string/sku"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/descripcion"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="122dp"
+        android:hint="@string/descripcion"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/categoria"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="193dp"
+        android:hint="@string/categoria"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/proveedor"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="264dp"
+        android:hint="@string/proveedor"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/pzas"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="335dp"
+        android:hint="@string/pzas"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/stock"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="406dp"
+        android:hint="@string/stock"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scan"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/boton_redondo"
+        android:textColor="@color/white"/>
+
+    <ImageButton
+        android:id="@+id/btnmenu"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/img"
+        android:contentDescription="@string/iconMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageButton>
+    <FrameLayout
+        android:id="@+id/myFrameLayoutMenu"
+        android:layout_width="230dp"
+        android:layout_height="300dp"
+        android:background="@drawable/menu_redondo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="30dp"
+        android:visibility="invisible">
+
+        <Button
+            android:id="@+id/nuevo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/boton_redondo"
+            android:text="@string/nuevo"
+            android:textColor="@color/white">
+        </Button>
+        <Button
+            android:id="@+id/ingreso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="49dp"
+            android:background="@drawable/boton_redondo"
+            android:text="@string/ingreso"
+            android:textColor="@color/white">
+        </Button>
+        <Button
+            android:id="@+id/inventario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="98dp"
+            android:background="@drawable/boton_redondo"
+            android:text="@string/inventario"
+            android:textColor="@color/white">
+        </Button>
+        <Button
+            android:id="@+id/movimientos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="147dp"
+            android:background="@drawable/boton_redondo"
+            android:text="@string/movimientos"
+            android:textColor="@color/white">
+        </Button>
+        <Button
+            android:id="@+id/acercade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="196dp"
+            android:background="@drawable/boton_redondo"
+            android:text="@string/acercade"
+            android:textColor="@color/white">
+        </Button>
+        <Button
+            android:id="@+id/cerrarSesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="245dp"
+            android:background="@drawable/boton_redondo"
+            android:text="@string/cerrarSesion"
+            android:textColor="@color/white">
+        </Button>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

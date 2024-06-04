@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">StockMaster</string>
+    <string name="sesion">Iniciar Sesión</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="user">Usuario</string>
+    <string name="pass">Password</string>
+    <string name="fondo">Fondo</string>
+    <string name="logo">Logo</string>
+    <string name="scan">Scan</string>
+    <string name="nuevo">Nuevo Registro</string>
+    <string name="ingreso">Ingreso</string>
+    <string name="inventario">Inventario</string>
+    <string name="movimientos">Consultar Movimientos</string>
+    <string name="cerrarSesion">Cerrar Sesión</string>
+    <string name="acercade">Acerca de</string>
+    <string name="iconMenu">IconoMenu</string>
+    <string name="sku">sku</string>
+    <string name="consulta">Consulta de Existencias</string>
+    <string name="descripcion">Descripción</string>
+    <string name="categoria">Categoría</string>
+    <string name="proveedor">Proveedor</string>
+    <string name="pzas">Pzas</string>
+    <string name="stock">Stock</string>
+    <string name="realizar">Realizar</string>
+</resources>
